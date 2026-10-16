@@ -5,7 +5,7 @@ using namespace std;
 void solve() {
     int n, k;
     cin >> n >> k;
-    cout << (k-1)*2+2**(n-k+1);
+    cout << (k-1)*2+(1LL << (n - k + 1));
 }
 
 int main() {
