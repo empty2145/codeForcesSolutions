@@ -9,7 +9,11 @@ void solve() {
 }
 
 int main() {
+    int tests = 0;
+    cin >> tests;
     ios_base::sync_with_stdio(false); cin.tie(NULL);
-    solve();
+    for (int i = 0; i < tests; i++) {
+        solve();
+    }
     return 0;
 }
