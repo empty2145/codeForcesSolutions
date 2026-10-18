@@ -2,6 +2,17 @@
 #include <string>
 using namespace std;
 
+int quadratise(int x) {
+    int sum = 0;
+    while (x > 0) {
+        int dig = x % 10;
+        sum += dig * dig;
+        x /= 10;
+    }
+    return sum;
+
+} 
+
 void solve() {
     int lighth = 0;
     cin >> lighth;
